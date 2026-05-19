@@ -23,11 +23,11 @@ from telebot import types
 # ⚙️  SOZLAMALAR — Railway Environment Variables dan o'qiladi
 # ═══════════════════════════════════════════════════════════════
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-KANAL     = os.environ.get("KANAL", "@instaheshteg_uz")
+BOT_TOKEN = os.environ.get("8944587981:AAEPqiJJjrMfvQupTE0jM1t_hlPufRw4oWg", "")
+KANAL     = os.environ.get("KANAL", "@ixo_uzz")
 
 # ADMIN_IDS: Railway'da "123456789,987654321" formatida yozing
-_admin_env = os.environ.get("ADMIN_IDS", "")
+_admin_env = os.environ.get("6391668377", "")
 ADMIN_IDS  = [int(x.strip()) for x in _admin_env.split(",") if x.strip().isdigit()]
 
 if not BOT_TOKEN:
